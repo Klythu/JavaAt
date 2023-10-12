@@ -9,6 +9,8 @@ public class Main {
         n.addNumber("oi","75");
         n.addNumber("oi","88");
         n.addNumber("op","12");
+        n.addNumber("op","12");
+        
         n.addNumber("on","998");
         n.printBook();
 
