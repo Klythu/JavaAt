@@ -1,6 +1,7 @@
 package org.example;
 
 import org.example.HW.HW1.*;
+import org.example.HW.HW2.*;
 public class Main {
     public static void main(String[] args) {
         PhoneBook n=new PhoneBook();
@@ -21,6 +22,15 @@ public class Main {
         Bl.put(15);
         Bl.take(5);
         System.out.println(Bl.getAmount());
+
+        FixedAmountAccount1 oleg=new FixedAmountAccount1(256);
+        oleg.put(200);
+        oleg.take(13);
+        System.out.println(oleg.getAmount());
+        FixedAmountAccount igor= new FixedAmountAccount(130);
+        igor.put(12);
+        igor.take(1);
+        System.out.println(igor.getAmount());
 
     }
 }
